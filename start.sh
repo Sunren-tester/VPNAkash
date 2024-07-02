@@ -8,9 +8,9 @@ apt-get upgrade -y
 apt-get install -y wget tar nginx unzip xz-utils make gcc goxkcdpwgen
 sleep 5
 source $HOME/.bashrc
-wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.39-9772-beta/softether-vpnserver-v4.39-9772-beta-2022.04.26-linux-x64-64bit.tar.gz
-tar xvzf softether-vpnserver-v4.39-9772-beta-2022.04.26-linux-x64-64bit.tar.gz
-rm softether-vpnserver-v4.39-9772-beta-2022.04.26-linux-x64-64bit.tar.gz
+wget https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.41-9782-beta/softether-vpnbridge-v4.41-9782-beta-2022.11.17-linux-x64-64bit.tar.gz
+tar xvzf softether-vpnbridge-v4.41-9782-beta-2022.11.17-linux-x64-64bit.tar.gz
+rm softether-vpnbridge-v4.41-9782-beta-2022.11.17-linux-x64-64bit.tar.gz
 cd vpnserver
 make
 sleep 10
